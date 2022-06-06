@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "compass": "ts-node ./compass-selling/get-compasses.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@types/cheerio": "^0.22.31",
+    "@types/lodash": "^4.14.182",
     "@types/moment": "^2.13.0",
     "axios": "^0.25.0",
     "cheerio": "0.22.0",
